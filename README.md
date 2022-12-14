@@ -1,5 +1,4 @@
-      
-<!-- About form inn HTML -- />
+      <!-- About form inn HTML -- />
 
 # Form in HTML
 
