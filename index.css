@@ -1,0 +1,96 @@
+body {
+  background-color: aliceblue;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+}
+
+img {
+  height: 220px;
+  width: 220px;
+  border-radius: 8px;
+}
+#image1 {
+  height: 300px;
+  width: 300px;
+  border-radius: 0%;
+}
+.navbar {
+  background-color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+button {
+  height: 35px;
+  width: auto;
+  background-color: rgb(235, 57, 86);
+  color: white;
+  border-style: none;
+  cursor: pointer;
+}
+#logo {
+  color: rgb(235, 57, 86);
+  font-family: monospace;
+}
+.main_part {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 300px 300px;
+  gap: 40px;
+}
+p {
+  font-weight: 500;
+}
+.item {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+}
+footer {
+  display: flex;
+  background-color: rgb(113, 74, 74);
+  position: relative;
+  bottom: 0;
+  width: 98.4%;
+  justify-content: space-between;
+  padding: 10px;
+}
+.one {
+  flex: 0.33;
+}
+.two {
+  flex: 0.33;
+}
+.three {
+  flex: 0.33;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: large;
+}
+.texts {
+  padding-left: 200px;
+  padding-top: 30px;
+  margin-bottom: 20px;
+  width: 40%;
+}
+.the_team {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  gap: 50px;
+  padding-left: 200px;
+  padding-top: 30px;
+  margin-bottom: 20px;
+}
+.team_member {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+}
