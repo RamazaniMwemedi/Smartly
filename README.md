@@ -53,8 +53,15 @@ Input element is used to create interactive controls for web-based forms in an H
     <form>
       <input type="text" name="name" value="Enter your name" />
       <input type="password" name="password" value="Enter your password" />
-      
-[...] 
+    </form>
+    </body>
+</html>
+````
+
+````
+
+[...]
+```
       
 <!-- About form inn HTML -- />
 
