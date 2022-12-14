@@ -1,3 +1,46 @@
+<!-- About form inn HTML -- />
+
+# Form in HTML
+
+## What is form in HTML?
+
+Form is a section of a document containing interactive controls that allow users to submit information to a web server.
+
+## Syntax
+
+```html
+<form action="action" method="method">
+  <!-- form elements -->
+</form>
+```
+
+## Attributes
+
+| Attribute | Description                                                                        |
+| --------- | ---------------------------------------------------------------------------------- |
+| action    | Specifies where to send the form-data when a form is submitted                     |
+| method    | Specifies how to send the form-data (which HTTP method to use)                     |
+| target    | Specifies where to display the response that is received after submitting the form |
+
+## Example
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form in HTML</title>
+  </head>
+  <body>
+    <form action="https://www.google.com/search" method="GET" target="_blank">
+      <input type="text" name="q" value="Enter your query" />
+      <input type="submit" value="Search" />
+    </form>
+  </body>
+</html>
+```
+
+[...]
+
 <!-- About Input element in HTML -->
 
 # Input element in HTML
@@ -43,7 +86,7 @@ Input element is used to create interactive controls for web-based forms in an H
 
 ## Example
 
-````html
+```html
 <!DOCTYPE html>
 <html>
   <head>
@@ -54,52 +97,11 @@ Input element is used to create interactive controls for web-based forms in an H
       <input type="text" name="name" value="Enter your name" />
       <input type="password" name="password" value="Enter your password" />
     </form>
-    </body>
-</html>
-````
-
-````
-
-<!-- About form inn HTML -- />
-
-# Form in HTML
-
-## What is form in HTML?
-
-Form is a section of a document containing interactive controls that allow users to submit information to a web server.
-
-## Syntax
-
-```html
-<form action="action" method="method">
-  <!-- form elements -->
-</form>
-```
-
-## Attributes
-
-| Attribute | Description                                                                 |
-| --------- | --------------------------------------------------------------------------- |
-| action    | Specifies where to send the form-data when a form is submitted              |
-| method    | Specifies how to send the form-data (which HTTP method to use)              |
-| target    | Specifies where to display the response that is received after submitting the form |
-
-## Example
-
-````html
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Form in HTML</title>
-  </head>
-  <body>
-    <form action="https://www.google.com/search" method="GET" target="_blank">
-      <input type="text" name="q" value="Enter your query" />
-      <input type="submit" value="Search" />
-    </form>
   </body>
 </html>
-````
-````
+```
+
+```
+
 [...]
-````
+```
