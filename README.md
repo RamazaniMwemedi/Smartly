@@ -53,37 +53,49 @@ Input element is used to create interactive controls for web-based forms in an H
     <form>
       <input type="text" name="name" value="Enter your name" />
       <input type="password" name="password" value="Enter your password" />
-      <input type [...] <!-- About form inn HTML -- />
-      # Form in HTML ## What is Form in HTML? Form is used to create an HTML
-      form for user input. It is used to create an HTML form for user input. It
-      is used to create an HTML form for user input. It is used to create an
-      HTML form for user input. ## Syntax ```html
+      
+[...] 
+      
+<!-- About form inn HTML -- />
 
-      <form action="action" method="method">
-        <!-- form elements -->
-      </form>
+# Form in HTML
 
-      ``` ## Attributes | Attribute | Description | |-----------|-------------|
-      | action | Specifies where to send the form-data when a form is submitted
-      | | method | Specifies how to send the form-data (the form-data is sent to
-      the page specified in the action attribute) | ## Example ```html
-      <!DOCTYPE html>
-      <html>
-        <head>
-          <title>Form in HTML</title>
-        </head>
-        <body>
-          <form action="https://www.google.com/search" method="GET">
-            <input type="text" name="q" value="Enter your query" />
-            <input type="submit" value="Search" />
-          </form>
-        </body>
-      </html>
+## What is form in HTML?
+
+Form is a section of a document containing interactive controls that allow users to submit information to a web server.
+
+## Syntax
+
+```html
+<form action="action" method="method">
+  <!-- form elements -->
+</form>
+```
+
+## Attributes
+
+| Attribute | Description                                                                 |
+| --------- | --------------------------------------------------------------------------- |
+| action    | Specifies where to send the form-data when a form is submitted              |
+| method    | Specifies how to send the form-data (which HTTP method to use)              |
+| target    | Specifies where to display the response that is received after submitting the form |
+
+## Example
+
+````html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form in HTML</title>
+  </head>
+  <body>
+    <form action="https://www.google.com/search" method="GET" target="_blank">
+      <input type="text" name="q" value="Enter your query" />
+      <input type="submit" value="Search" />
     </form>
   </body>
 </html>
 ````
-
-## Output
-
-![Form in HTML](https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/images/form.png)
+````
+[...]
+````
