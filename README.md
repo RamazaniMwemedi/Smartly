@@ -61,7 +61,6 @@ Input element is used to create interactive controls for web-based forms in an H
 ````
 
 [...]
-```
       
 <!-- About form inn HTML -- />
 
