@@ -1,3 +1,4 @@
+      
 <!-- About form inn HTML -- />
 
 # Form in HTML
@@ -16,15 +17,15 @@ Form is a section of a document containing interactive controls that allow users
 
 ## Attributes
 
-| Attribute | Description                                                                        |
-| --------- | ---------------------------------------------------------------------------------- |
-| action    | Specifies where to send the form-data when a form is submitted                     |
-| method    | Specifies how to send the form-data (which HTTP method to use)                     |
+| Attribute | Description                                                                 |
+| --------- | --------------------------------------------------------------------------- |
+| action    | Specifies where to send the form-data when a form is submitted              |
+| method    | Specifies how to send the form-data (which HTTP method to use)              |
 | target    | Specifies where to display the response that is received after submitting the form |
 
 ## Example
 
-```html
+````html
 <!DOCTYPE html>
 <html>
   <head>
@@ -37,9 +38,11 @@ Form is a section of a document containing interactive controls that allow users
     </form>
   </body>
 </html>
-```
-
+````
+````
 [...]
+````
+
 
 <!-- About Input element in HTML -->
 
@@ -86,7 +89,7 @@ Input element is used to create interactive controls for web-based forms in an H
 
 ## Example
 
-```html
+````html
 <!DOCTYPE html>
 <html>
   <head>
@@ -96,12 +99,8 @@ Input element is used to create interactive controls for web-based forms in an H
     <form>
       <input type="text" name="name" value="Enter your name" />
       <input type="password" name="password" value="Enter your password" />
-    </form>
-  </body>
-</html>
-```
+    </form>  
+    </body>  
+</html> 
+[...] 
 
-```
-
-[...]
-```
